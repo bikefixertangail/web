@@ -152,6 +152,14 @@ header{
   animation:float 6s ease-in-out infinite;
 }
 .ring img{width:100%;border-radius:50%}
+
+.about-image{
+    background:radial-gradient(circle,#2a2a2e,#18181A 70%);
+  border:4px solid var(--primary);display:grid;place-items:center;
+  box-shadow:0 0 0 14px rgba(214,98,19,.08),0 30px 80px rgba(0,0,0,.6);
+  animation:float 6s ease-in-out infinite;
+
+}
 @keyframes float{50%{transform:translateY(-14px)}}
 
 /* Brands marquee */
@@ -414,7 +422,7 @@ footer h4{font-size:1.05rem;margin-bottom:14px;color:var(--primary)}
 <!-- About -->
 <section class="about" id="about">
   <div class="container about-grid">
-    <div class="about-img"><div class="ring"><img src="images/garage.png" alt="বাইক ফিক্সার টাঙ্গাইল" loading="lazy"></div></div>
+    <div class="about-img"><div class="about-image"><img src="images/garage.png" alt="বাইক ফিক্সার টাঙ্গাইল" loading="lazy"></div></div>
     <div>
       <span class="eyebrow">আমাদের সম্পর্কে</span>
       <h2>বাইক ফিক্সার টাঙ্গাইল — <span>আপনার বাইকের আস্থার ঠিকানা</span></h2>
